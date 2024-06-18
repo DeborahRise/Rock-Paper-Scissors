@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="r-p-s.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <div class="section">
+        <h1 class="title">Rock Paper Scissors</h1>
+        <button class="icons-button" onclick="playGame('Rock')"><img src="images/Rock-emoji.png" class="icons" alt=""></button>
+        <button class="icons-button" onclick="playGame('Paper')"><img src="images/Paper-emoji.png" class="icons" alt=""></button>
+        <button class="icons-button" onclick="playGame('Scissors')"><img src="images/Scissors-emoji.png" class="icons" alt=""></button>
+        <h2 class = "js-score score"></h2>
+        <p class="js-scoreboard scoreboard"></p>
+        <p class="js-result result"></p>
+        <button class="resetScore-button" onclick="resetScore()">Reset Score</button>
+        <button class="js-auto-play-button resetScore-button" onclick="autoPlay()">Auto Play</button>
+
+    </div> 
+    
+    <script src="r-p-s.js"></script>
+</body>
+</html>
